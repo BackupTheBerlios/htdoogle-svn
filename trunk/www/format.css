@@ -1,0 +1,28 @@
+body	{background-color:white}
+
+/* container tabelle */
+table.container	{
+	width:	100%;
+	height:	100%;
+	/*border:	1px solid black;*/
+}
+
+td.container{
+	vertical-align:	middle;
+	text-align:		center;
+	height:		100%;
+}
+td.footer{
+	vertical-align:	bottom;
+	text-align:		center;
+}
+
+
+table.content{
+	width:	500px;
+	height:	500px;
+}
+
+tr.row_oben{
+	height:10px;
+}
