@@ -54,3 +54,7 @@ table.navi{
 	border-style:	none none dashed;
 	border-color:	#000000;
 }
+.style{
+	border-width:	1px;
+	border-style:	solid;
+}
