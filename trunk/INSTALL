@@ -55,8 +55,13 @@
 		script_name:		/htdoogle/htsearch.php
 
 	f)	for additional parser look at http://www.htdig.org/files/contrib/parsers/
-
 6)
+	run in the shell 'rundig -a -v' if you configured all correct you should see output of digger
+
+7)
+	run your webbrowser and open your http://www.yourserver.org/htdoogle and enjoy !
+
+
 	any questions/probs/wishes etc. go to http://htdoogle.berlios.de/mail.php
 
-	an mail !!!
+	and send me a mail !!!
