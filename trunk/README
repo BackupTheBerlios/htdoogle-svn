@@ -6,5 +6,5 @@ requirements:
 	- php scripting support
 
 features:
-	google-like looking --> ey-friendly
+	google-like looking --> eye-friendly
 	support more intuitive searching with operators like '+','-' etc.
