@@ -30,6 +30,8 @@ td.container{
 td.footer{
 	vertical-align:	bottom;
 	text-align:		center;
+	font-family:		Verdana, sans-serif;
+	font-size:		x-small;
 }
 
 
@@ -43,16 +45,16 @@ tr.row_oben{
 }
 
 hr.line{
-	width:	390px;
+	width:	490px;
 	border-width:	1px;
 	border-style:	none none dashed none;
-	border-color:	#004040;
+	border-color:	#f04040;
 }
 
 table.navi{
 	border-width:	1px;
-	border-style:	none none dashed;
-	border-color:	#000000;
+	border-style:	none none dotted;
+	border-color:	#00a000;
 }
 .style{
 	border-width:	1px;
