@@ -9,7 +9,8 @@ table.container	{
 
 td.container{
 	vertical-align:	middle;
-	text-align:		center;
+	#text-align:		center;
+	text-alignment:		center;
 	height:		100%;
 }
 td.footer{
@@ -25,4 +26,9 @@ table.content{
 
 tr.row_oben{
 	height:10px;
+}
+
+hr.line{
+	width:	300px;
+
 }
