@@ -1,4 +1,18 @@
 body	{background-color:white}
+a	{ text-decoration:none;}
+a:hover{
+	text-decoration: underline;
+	color:	#ff0000;
+}
+a.section{
+	font-weight:	bold;
+	font-family: Verdana, sans-serif;
+	text-transform:	uppercase;
+	color:			#000088;
+}
+ul{
+	list-style-type:	circle;
+}
 
 /* container tabelle */
 table.container	{
@@ -29,6 +43,14 @@ tr.row_oben{
 }
 
 hr.line{
-	width:	300px;
+	width:	390px;
+	border-width:	1px;
+	border-style:	none none dashed none;
+	border-color:	#004040;
+}
 
+table.navi{
+	border-width:	1px;
+	border-style:	none none dashed;
+	border-color:	#000000;
 }
