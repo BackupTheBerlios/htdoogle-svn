@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>htdoogle</title>
+  <link rel="stylesheet" type="text/css" href="/htdoogle/htdoogle.css">
+ </head>
+<body bgcolor="#ffffff">
+
+<!-- Container-tabelle //-->
+<table width=100% height=100%>
+	<tr><td height=1>
+	<!-- eigentliche Tabelle //-->
+	<table border=0 >
+	 <tr>
+	  <td align=right width=300>
+		<a href="http://www.htdig.org"><img src="/images/htdoogle_175_49.jpg" width=175 height=49 alt=" HTDIG Search Engine " border=0></a>
+	  </td>
+	  <td width=50>
+		&nbsp;
+	  </td>
+	  <td>
+	  <form method="get" action="$(CGI)">
+	     <input type="text" size="30" name="words" value="$&(WORDS)">
+	     &nbsp;
+	     <input type="submit" value="suche">
+	  </td>
+	  </form>
+	 </tr>
+	</table>
+	</td></tr>
+	<!-- Mittelteil //-->
+	<tr><td height=1>
+	<hr noshade size="1">
+		nichts gefunden
+	</td></tr>
+	<!-- fuß //-->
+	<tr><td valign=bottom>
+		<hr noshade size="1">
+		$(PAGEHEADER)
+		<center>$(PREVPAGE) $(PAGELIST) $(NEXTPAGE)</center>
+		<p/>
+		<p/>
+		<div align=center>
+			<a href="http://www.htdig.org/" style="text-decoration:none; font-size:xx-small;font-family:monospace; color:grey">
+				ht://Dig $(VERSION)
+			</a>
+		</div>
+	<td></tr>
+	</table>
+</body></html>

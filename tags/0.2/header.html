@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>Suchergebnisse f&uuml;r '$&(WORDS)'</title>
+  <link rel="stylesheet" type="text/css" href="/htdoogle/htdoogle.css">
+ </head>
+<body bgcolor="#ffffff">
+
+<table border=0>
+	 <tr>
+	  <td align=right width=300>
+		<a href="http://htdoogle.berlios.de"><img src="/images/htdoogle_175_49.jpg" width=175 height=49 alt=" HTDIG Search Engine " border=0></a>
+	  </td>
+	  <td width=50>
+		&nbsp;
+	  </td>
+	  <td>
+	  <form method="get" action="$(CGI)">
+	     <input type=hidden name="method" value="boolean">
+	     <input type="text" size="30" name="words" value="$&(WORDS)">
+	     &nbsp;
+	     <input type="submit" value="suche">
+	  </td>
+	  </form>
+	 </tr>
+</table>
+<table width=100% cellpadding=0 cellspacing=0>
+	<tr><td bgcolor="#e5ecf9" align=right>
+	Ergebnisse <b> $(FIRSTDISPLAYED) - $(LASTDISPLAYED)</b> von ungefähr <b>$(MATCHES)</b> f&uuml;r <b>$&(LOGICAL_WORDS)</b>.
+</td></tr></table>
+<br/>
