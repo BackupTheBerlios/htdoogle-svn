@@ -27,3 +27,6 @@ input 	{ border:1 solid #000040;}
 	font-family:arial,sans-serif;
 	font-size: small;
 }
+table.excerpt{
+	width:	500px;
+}
