@@ -16,7 +16,15 @@
 	<img src=\"htdoogle_90.jpg\" width=\"425\" height=\"120\" border=\"0\" alt=\"HT://doogle - logo\" />
 	<p/>";
 	#mail("lkwg82@mail.berlios.net", "htdoogle", "test");
-
+	print "
+	<table width=400 border=0 cellspacing=0 cellpadding=0 class=\"navi\">
+		  <tr><td>
+			<h3>mail form</h3>
+			<form>
+				<input type=\"text\" name=subject>
+			</form>
+			</td>
+		  </tr></table>";
 	print "	</td>
    </tr>
   </table>
